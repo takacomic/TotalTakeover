@@ -1,0 +1,24 @@
+[
+    {
+        "modid": "totaltakeover",
+        "name": "Total Takeover",
+        "description": "This one mod",
+        "version": "${mod_version}",
+        "mcversion": "${minecraft_version}",
+        "url": "takacomic.com/TotalTakeoverMod",
+        "updateUrl": "",
+        "authorList":
+        [
+            "takacomic"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots":
+        [
+        ],
+        "parent":"",
+        "dependencies":
+        [
+        ]
+    }
+]
