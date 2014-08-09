@@ -30,6 +30,6 @@ public class TotalTakeover
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        //tesing autobuild 2
+        //tesing autobuild
     }
 }
