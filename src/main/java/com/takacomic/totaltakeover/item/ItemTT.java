@@ -1,6 +1,6 @@
 package com.takacomic.totaltakeover.item;
 
-import com.takacomic.totaltakeover.creativetab.creativetabTT;
+import com.takacomic.totaltakeover.creativetab.CreativeTabTT;
 import com.takacomic.totaltakeover.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +13,7 @@ public class ItemTT extends Item
     public ItemTT()
     {
         super();
-        this.setCreativeTab(creativetabTT.TT_TAB);
+        this.setCreativeTab(CreativeTabTT.TT_TAB);
     }
 
     @Override

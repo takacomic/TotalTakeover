@@ -1,6 +1,6 @@
 package com.takacomic.totaltakeover.block;
 
-import com.takacomic.totaltakeover.creativetab.CreativetabTT;
+import com.takacomic.totaltakeover.creativetab.CreativeTabTT;
 import com.takacomic.totaltakeover.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +13,7 @@ public class BlockTT extends Block
     public BlockTT(Material material)
     {
         super(material);
-        this.setCreativeTab(CreativetabTT.TT_TAB);
+        this.setCreativeTab(CreativeTabTT.TT_TAB);
     }
 
     public BlockTT()
