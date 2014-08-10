@@ -1,6 +1,6 @@
 package com.takacomic.totaltakeover.item;
 
-import com.takacomic.totaltakeover.creativetab.CreativetabTT;
+import com.takacomic.totaltakeover.creativetab.creativetabTT;
 import com.takacomic.totaltakeover.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +13,7 @@ public class ItemTT extends Item
     public ItemTT()
     {
         super();
-        this.setCreativeTab(CreativetabTT.TT_TAB);
+        this.setCreativeTab(creativetabTT.TT_TAB);
     }
 
     @Override
@@ -32,7 +32,7 @@ public class ItemTT extends Item
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iconRegister)
     {
-        itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+        itemIcon = iconRegister.registerIcon(this.getUnwrappedUnlocalizedName(this.getUnlocalizedName()));
     }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
